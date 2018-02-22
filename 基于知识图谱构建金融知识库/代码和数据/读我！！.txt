@@ -1,0 +1,42 @@
+1、安装分词器
+
+解压jieba-0.38.zip
+
+进入到jieba-0.38文件夹下执行如下指令：
+
+ 	python setup.py install
+
+安装完成后，在python环境下输入：import jieba
+如果没有“No module named jieba”说明安装完成。
+
+
+
+
+
+2、代码文件夹下内容
+
+1）rhkg是一个python包，里面是知识图谱（rhkg.py）和消息处理（news_handler.py）的模块；
+2）test_rhmsg.py 是测试模块，test_rhmsg.py中需要from rhkg import *
+
+
+
+
+
+3、数据文件
+
+1）知识图谱 rhkg.csv
+2) 新闻消息 news1.txt
+
+
+
+
+4、测试运行
+
+直接运行test_rhmsg.py模块即可
+
+   注意修改 rhkg.csv和news1.txt的路径为当前计算机的保存路径。
+
+
+
+
+
